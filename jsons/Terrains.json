@@ -7,8 +7,9 @@
 "movementCost": 1,
 "RGB": [35,35,35]
 "uniques": ["Occurs at temperature between [-0.6] and [0.4] and humidity between [0.2] and [0.3]",
-		]
-},	
+		"Always Fertility [-2] for Map Generation",
+		"Considered [Undesirable] when determining start locations"]
+	},		
 	{
 		"name": "Ocean",
 		"type": "Water",
