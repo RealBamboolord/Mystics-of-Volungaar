@@ -9,9 +9,9 @@
 		"faith": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1, "culture": 1},
-		"uniques": ["Generated on every [8] tiles <in [Featureless] [Chasm] tiles>",
-					"Generated on every [16] tiles <in [Featureless] [Chasm] tiles> <in [Hill] Regions>",
-					"Generated on every [16] tiles <in [Featureless] [Chasm] tiles> <in [Chasm] Regions>"]
+		"uniques": ["Generated on every [14] tiles <in [Featureless] [Chasm] tiles>",
+					"Generated on every [22] tiles <in [Featureless] [Chasm] tiles> <in [Hill] Regions>",
+					"Generated on every [22] tiles <in [Featureless] [Chasm] tiles> <in [Chasm] Regions>"]
 	},
 	{
 		"name": "Cattle",
