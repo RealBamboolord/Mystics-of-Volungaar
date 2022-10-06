@@ -328,7 +328,8 @@
 			"Must be adjacent to [0] to [0] [Mountain] tiles",
 			"Must be adjacent to [0] to [5] [Tundra] tiles",
 			"Neighboring tiles will convert to [Chasm]",
-			"Units ending their turn on this terrain take [100] damage"
+			"Units ending their turn on this terrain take [100] damage",
+			"Tile provides yield without assigned population"
 		],
 		"turnsInto": "Chasm",
 		"impassable": true,
