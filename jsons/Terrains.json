@@ -8,9 +8,12 @@
 		"RGB": [20,23,60]
 		"uniques": ["Occurs at temperature between [-0.6] and [0.4] and humidity between [0.2] and [0.3]",
 				"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
-				"Always Fertility [-2] for Map Generation",
+				"[-2] to Fertility for Map Generation",
+				"A Region is formed with at least [40]% [Chasm] tiles, with priority [10]",
+				"A Region can not contain more [Lowlands] tiles than [Chasm] tiles",
 				"Considered [Undesirable] when determining start locations",
-				"Becomes [Tension Web] when adjacent to [River]"]
+				"Becomes [Tension Web] when adjacent to [River]",
+				"Never receives any resources <in [Hill] tiles>"]
 	},		
 	{
 		"name": "Ocean",
