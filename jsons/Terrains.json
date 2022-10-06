@@ -82,6 +82,7 @@
 				"Considered [Food] when determining start locations <in [Hill] Regions>",
 				"Considered [Food] when determining start locations <in [Plains] Regions>",
 				"Considered [Food] when determining start locations <in [Hybrid] Regions>",
+				"Becomes [Valley] when adjacent to [River]",
 				"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -100,7 +101,7 @@
 				"A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
 				"Considered [Food] when determining start locations <in [Tundra] Regions>",
 				"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
-				"Becomes [Plains] when adjacent to [River]",
+				"Becomes [Valley] when adjacent to [River]",
 				"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -176,10 +177,7 @@
 					"Has an elevation of [5] for visibility calculations",
 					"Occurs in groups around high elevations",
 					"[+1] to Fertility for Map Generation",
-					"A Region is formed with at least [30]% [Hill] tiles, with priority [5]",
-					"A Region is formed with at least [50]% [Hill] tiles and [Valley] tiles, with priority [4]",
-					"A Region can not contain more [Valley] tiles than [Hill] tiles",
-					"Becomes [Valley] when adjacent to [River]",
+					"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
 					"Base Terrain on this tile is not counted for Region determination",
 					"Starts in regions of this type receive an extra [Sheep]",
 					"Considered [Desirable] when determining start locations",
@@ -190,21 +188,19 @@
 		"name": "Valley",
 		"type": "TerrainFeature",
 		"food": 1,
-		"gold": 1,
+		"gold": 2,
 		"movementCost": 1,
 		"overrideStats": true,
 		"defenceBonus": -0.15,
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Desert"],
-		"uniques": ["Rough terrain",
+		"uniques": ["Rare feature", "Rough terrain",
 					"[-3] Strength for cities built on this terrain",
-					"Occurs in groups around high elevations",
-					"[+1] to Fertility for Map Generation",
-					"Base Terrain on this tile is not counted for Region determination",
-					"Starts in regions of this type receive an extra [Sheep]",
+					"[+2] to Fertility for Map Generation",
 					"Considered [Desirable] when determining start locations",
 					"Considered [Food] when determining start locations <in [Hill] Regions>",
-					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
+					"Every [30] tiles with this terrain will receive a major deposit of a strategic resource.",
+					"Occurs in groups of [2] to [5] tiles"]
 	},
 	{
 		"name": "Forest",
