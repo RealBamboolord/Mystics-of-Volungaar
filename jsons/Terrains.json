@@ -312,7 +312,34 @@
 					"[-1] to Fertility for Map Generation",
 					"Considered [Undesirable] when determining start locations"]
 	},
-//removers Wip temp	
+	//Natural Wonders
+
+	{
+		"name": "UoRu Black Hole",
+		"type": "NaturalWonder",
+		"science": 5,
+		"faith": 2,
+		"occursOn": ["Tundra", "Snow", "Plains", "Chasm"],
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [1] to [6] [Chasm] tiles",
+			"Must be adjacent to [0] to [0] [Hill] tiles",
+			"Must be adjacent to [0] to [0] [Mountain] tiles",
+			"Must be adjacent to [0] to [5] [Tundra] tiles",
+			"Neighboring tiles will convert to [Chasm]",
+			"Units ending their turn on this terrain take [100] damage"
+		],
+		"turnsInto": "Chasm",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 5,
+		"civilopediaText": [
+			{
+				"text": "A micro black hole native to the chasms of this world. It is constantly growing and will eat the entire planet eventually."
+			}
+		]
+	},
+	//removers Wip temp	
 	{
 		"name": "Grassland",
 		"type": "Land",
