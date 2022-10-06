@@ -10,7 +10,7 @@
 				"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
 				"Always Fertility [-2] for Map Generation",
 				"Considered [Undesirable] when determining start locations",
-				"Becomes [Mountain] when adjacent to [River]"]
+				"Becomes [Tension Web] when adjacent to [River]"]
 	},		
 	{
 		"name": "Ocean",
@@ -284,6 +284,18 @@
 		"uniques": ["Always Fertility [5] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Tension Web",
+		"type": "TerrainFeature",
+		"production": 1,
+		"science": 1,
+		"movementCost": 3,
+		"defenceBonus": -0.3,
+		"occursOn": ["Chasm"],
+		"uniques": ["Always Fertility [1] for Map Generation","Rare feature",
+					"Considered [Production] when determining start locations",
+					"Considered [Undesirable] when determining start locations"]
 	},
 	{
 		"name": "Ice",
