@@ -5,7 +5,7 @@
 		"type": "Land",
 		"impassable": true,
 		"movementCost": 1,
-		"RGB": [35,35,35]
+		"RGB": [20,23,60]
 		"uniques": ["Occurs at temperature between [-0.6] and [0.4] and humidity between [0.2] and [0.3]",
 				"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
 				"Always Fertility [-2] for Map Generation",
