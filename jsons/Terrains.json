@@ -1,14 +1,16 @@
 [
 	// Base terrains
-{
-"name": "Chasm",
-"type": "Land",
+	{
+		"name": "Chasm",
+		"type": "Land",
 		"impassable": true,
-"movementCost": 1,
-"RGB": [35,35,35]
-"uniques": ["Occurs at temperature between [-0.6] and [0.4] and humidity between [0.2] and [0.3]",
-		"Always Fertility [-2] for Map Generation",
-		"Considered [Undesirable] when determining start locations"]
+		"movementCost": 1,
+		"RGB": [35,35,35]
+		"uniques": ["Occurs at temperature between [-0.6] and [0.4] and humidity between [0.2] and [0.3]",
+				"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+				"Always Fertility [-2] for Map Generation",
+				"Considered [Undesirable] when determining start locations",
+				"Becomes [Mountain] when adjacent to [River]"]
 	},		
 	{
 		"name": "Ocean",
@@ -29,7 +31,7 @@
 			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
-		"name": "Grassland",
+		"name": "Lowlands",
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
@@ -44,12 +46,12 @@
 			 "Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
 				"[+3] to Fertility for Map Generation",
 				"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
-				"A Region can not contain more [Plains] tiles than [Grassland] tiles",
+				"A Region can not contain more [Plains] tiles than [Lowlands] tiles",
 				"Considered [Desirable] when determining start locations",
 				"Considered [Food] when determining start locations <in [Jungle] Regions>",
 				"Considered [Food] when determining start locations <in [Forest] Regions>",
 				"Considered [Food] when determining start locations <in [Hill] Regions>",
-				"Considered [Food] when determining start locations <in [Grassland] Regions>",
+				"Considered [Food] when determining start locations <in [Lowlands] Regions>",
 				"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 				"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -68,12 +70,11 @@
 			 "Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
 			 "Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
 			 "Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
-			 "Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
 			 "Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
 			 "Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
 				"[+4] to Fertility for Map Generation",
 				"A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
-				"A Region can not contain more [Grassland] tiles than [Plains] tiles",
+				"A Region can not contain more [Lowlands] tiles than [Plains] tiles",
 				"Considered [Desirable] when determining start locations",
 				"Considered [Food] when determining start locations <in [Tundra] Regions>",
 				"Considered [Food] when determining start locations <in [Desert] Regions>",
@@ -164,7 +165,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
+		"occursOn": ["Tundra","Plains","Lowlands","Desert","Snow"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [2] for visibility calculations",
@@ -186,7 +187,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Plains","Grassland","Hill"],
+		"occursOn": ["Tundra","Plains","Lowlands","Hill"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -209,7 +210,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Plains","Grassland"],
+		"occursOn": ["Plains","Lowlands"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -218,8 +219,8 @@
 			"A Region is formed with at least [30]% [Jungle] tiles, with priority [2]",
 			"A Region is formed with at least [35]% [Jungle] tiles and [Forest] tiles, with priority [2]",
 			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
-			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
-			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
+			"Considered [Food] when determining start locations <in all except [Lowlands] Regions>",
+			"Considered [Desirable] when determining start locations <in all except [Lowlands] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
@@ -230,7 +231,7 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
-		"occursOn": ["Grassland"],
+		"occursOn": ["Lowlands"],
 		"uniques": ["Rare feature",
 					"[-2] to Fertility for Map Generation",
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
@@ -244,7 +245,7 @@
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"]
+		"occursOn": ["Lowlands","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"]
 		"defenceBonus": -0.15
 	},
 {
