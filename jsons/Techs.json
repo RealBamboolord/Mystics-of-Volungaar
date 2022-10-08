@@ -1,4 +1,32 @@
 [
+	{
+		"columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"techs": [
+			{
+				"name": "Civilian Gathering",
+				"row": 2,
+				"quote": "Gathering all your people is the first step to survive in an unknown world",
+				"uniques": ["Starting tech"]
+			},
+			{
+				"name": "Counting belongings",
+				"row": 5,
+				"quote": "You may take a look what you have at hand to help your success",
+				//"uniques": ["Starting tech"]
+			},
+		]
+	},	
+	
+	
+	
+	
+	
+	
+	
+	
 	/*{
 		"columnNumber": 0,
 		"era": "Ancient era",
