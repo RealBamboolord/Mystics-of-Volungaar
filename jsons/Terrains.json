@@ -197,6 +197,7 @@
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Desert"],
 		"uniques": ["Rare feature", "Rough terrain",
+					"Has an elevation of [1] for visibility calculations",
 					"[-3] Strength for cities built on this terrain",
 					"[+2] to Fertility for Map Generation",
 					"Considered [Desirable] when determining start locations",
@@ -357,7 +358,7 @@
 		"weight": 10,
 		/*"civilopediaText": [
 			{
-				"text": "A micro black hole native to the chasms of this world. It is constantly growing and will eat the entire planet eventually. It is glowing with the energy of a millionen km² of soaked up plains"
+				"text": "A mysterious hole in the lowlands created by the impact of a long forgotten asteroid. Since than, highly energetic light particles has been radiating out of it. Maybe this energy can be used for something useful"
 			}
 		]*/
 	},
