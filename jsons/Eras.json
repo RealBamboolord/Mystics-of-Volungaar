@@ -3,13 +3,13 @@
     // I also did some testing in the official version, but by far not all
 
     {
-        "name": "Ancient era",
+        "name": "Survival Phase",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
-        "startingWorkerCount": 0,
-        "startingMilitaryUnitCount": 1,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 0,
         "startingMilitaryUnit": "Warrior",
-        "settlerPopulation": 1,
+        "settlerPopulation": 2,
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
@@ -30,7 +30,7 @@
         },
         "iconRGB": [255, 87, 35]
     },
-    {
+/*    {
         "name": "Classical era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
@@ -338,4 +338,5 @@
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
     }
+    */
 ]
