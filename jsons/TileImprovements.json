@@ -154,12 +154,27 @@
 	},
 	{
 		"name": "Remove Marsh",
-		"turnsToBuild": 6,
+	
+	"turnsToBuild": 6,
 		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
-
+	{
+		"name": "Remove Ice",
+		//"techRequired": "Masonry",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Tension Web",
+	
+	"turnsToBuild": 12,
+		//"techRequired": "Masonry",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	
 	// These are unique and have unique in-game checks related to them
 	{
 		"name": "Remove Road",
