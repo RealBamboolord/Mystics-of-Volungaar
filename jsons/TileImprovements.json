@@ -161,7 +161,7 @@
 	},
 	{
 		"name": "Remove Ice",
-		//"techRequired": "Masonry",
+		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
@@ -169,7 +169,7 @@
 		"name": "Remove Tension Web",
 	
 	"turnsToBuild": 12,
-		//"techRequired": "Masonry",
+		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
