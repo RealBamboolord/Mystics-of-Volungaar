@@ -14,6 +14,7 @@
 			{
 				"name": "Counting belongings",
 				"row": 5,
+				"prerequisites": ["Civilian Gathering"],
 				"quote": "You may take a look what you have at hand to help your success",
 				//"uniques": ["Starting tech"]
 			},
