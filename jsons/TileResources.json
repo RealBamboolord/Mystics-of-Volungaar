@@ -102,6 +102,24 @@
 	
 	// Strategic resources
 	{
+		"name": "Demon Blood",
+		"resourceType": "Strategic",
+		//"revealedBy": "Atomic Theory",
+		"terrainsCanBeFoundOn": ["Marsh","Ice Sheet","Ice","Chasm","Snow","Valley"],
+		"culture": 1,
+		"faith": 1,
+		"improvedBy": ["Quarry", "Offshore Platform"],
+		"improvementStats": {"faith": 2,"production": 2},
+		"uniques": ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [70] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [70] <in [Snow] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Chasm] tiles>",
+					"Minor deposits generated with weight [10] <in [Ice] tiles>",
+					"Minor deposits generated with weight [10] <in [Ice Sheet] tiles>"],
+		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
+	},
+	{
 		"name": "Horses",
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
