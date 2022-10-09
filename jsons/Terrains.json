@@ -13,6 +13,7 @@
 				"A Region can not contain more [Chasm] tiles than [Lowlands] tiles",
 				"Considered [Undesirable] when determining start locations",
 				"Becomes [Tension Web] when adjacent to [River]",
+				"Starts in regions of this type receive an extra [Demon Blood]",
 				"Never receives any resources <in [Hill] tiles>",
 				"Every [20] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},		
@@ -198,6 +199,7 @@
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Desert"],
 		"uniques": ["Rare feature", "Rough terrain",
+			    		"Base Terrain on this tile is not counted for Region determination",
 					"Has an elevation of [1] for visibility calculations",
 					"[-3] Strength for cities built on this terrain",
 					"[+2] to Fertility for Map Generation",
@@ -299,6 +301,7 @@
 		"defenceBonus": -0.3,
 		"occursOn": ["Chasm"],
 		"uniques": ["Always Fertility [1] for Map Generation","Rare feature",
+			    		"Base Terrain on this tile is not counted for Region determination",
 					"Considered [Production] when determining start locations",
 					"Considered [Undesirable] when determining start locations"]
 	},
