@@ -192,7 +192,7 @@
 		"name": "Valley",
 		"type": "TerrainFeature",
 		"food": 1,
-		"gold": 2,
+		"gold": 1,
 		"movementCost": 1,
 		"overrideStats": true,
 		"defenceBonus": -0.15,
