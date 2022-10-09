@@ -160,7 +160,7 @@
 		"shortcutKey": "X"
 	},
 	{
-		"name": "Remove Ice",
+		"name": "Remove Ice Sheet",
 		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
