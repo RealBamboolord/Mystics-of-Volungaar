@@ -35,7 +35,7 @@
 		"terrainsCanBeBuiltOn": ["Lowlands","Plains","Jungle","Flood plains","Snow","Chasm"],
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] <in tiles without [Demon Blood]>", "[+1 Gold] <after discovering [Economics]> <in tiles without [Demon Blood]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Gold] <in tiles without [Demon Blood]> <in tiles without [Chasm]>", "[+1 Gold] <after discovering [Economics]> <in tiles without [Demon Blood]> <in tiles without [Chasm]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
 
