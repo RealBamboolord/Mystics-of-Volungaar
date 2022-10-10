@@ -44,7 +44,7 @@
 			{"text": "This is your basic, club-swinging fighter."}
 		]
 	},
-	{
+	/*{
 		"name": "Archer",
 		"unitType": "Archery",
 		"movement": 2,
@@ -55,16 +55,16 @@
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
-	},
+	},*/
 	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"requiredTech": "Sailing",
+		//"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable","Can enter ice tiles <during a Golden Age>", "Invisible to non-adjacent units <during a Golden Age>"]
 	},
-	{
+	/*{
 		"name": "Trireme",
 		"unitType": "Melee Water",
 		"movement": 4,
@@ -582,7 +582,7 @@
 			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
-
+*/
 	/* Great people */
 
 	{
@@ -628,7 +628,7 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
-	{
+	/*{
 		"name": "Khan",
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
@@ -636,7 +636,7 @@
 		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles",
 			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 5
-	},
+	},*/
 
 	/* Religious units */
 
@@ -664,7 +664,7 @@
 
 	// Must be transported to the Capital for launch.
 	// Can be destroyed by any hostile military unit walking in their tile.
-	{
+	/*{
 		"name": "SS Booster",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -703,5 +703,5 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 		// costs 1500 in BNW
-	}
+	} */
 ]
