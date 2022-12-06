@@ -26,7 +26,7 @@
 		"strength": 69,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Free [Anti-Aircraft Gun] found in the ruins<by consuming this unit>"],
+		"uniques": ["Free [Anti-Aircraft Gun] found in the ruins <by consuming this unit>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
